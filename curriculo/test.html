@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Lucas Martins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="perfil">
+            <img src="fotodeperfil.png" alt="Foto de Lucas Martins">
+            <div>
+                <h1>Lucas Martins</h1>
+            </div>
+        </div>
+        <div class="info-pessoal">
+            <p><strong>Endereço:</strong> Rua Dr Fernandes, 179, Vassouras, Rio de Janeiro</p>
+            <p><strong>Telefone:</strong> (22) 99810-3590</p>
+            <p><strong>Email:</strong> lucas.martins.bz@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lucas-martins-450718286/" target="_blank">linkedin.com/in/lucasmartins</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Lucasxdbz" target="_blank">github.com/lucasmartins</a></p>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Sou um estudante de Engenharia de Software com interesse em desenvolvimento web e aprendizado de máquina. Busco oportunidades para aplicar meus conhecimentos afim de desenolver novas habilidades e aprimorar as minhas</p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <div class="item">
+            <h3>Estagiário de Projeto de Desenvolvimento de Software</h3>
+            <p>Serviços de informática</p>
+        </div>
+    </section>
+
+    <section id="educacao">
+        <h2>Educação</h2>
+        <div class="item">
+            <h3>Bacharelado em Engenharia de Software</h3>
+            <p>Universidade de Vassouras - 2024 - Presente</p>
+            <p>Formação em desenvolvimento de software e gerenciamento de projetos sociais.</p>
+        </div>
+    </section>
+
+    <section id="competencias">
+        <h2>Competências</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Gerenciamento de Projetos</li>
+            <li>Machine Learning e Inteligência Artificial</li>
+            <li>Resolução de problemas</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form onsubmit="return validarFormulario()">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
